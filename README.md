@@ -1,7 +1,7 @@
 # adventure-game
  Creating a simple decision-based adventure typing game to practice my Python.
 
-======================================================================================
+===========================================================================
 
 This is a very simple Python project. The decision-based aspect is primarly built on While True loops and various if statements. We all gotta start somewhere!
 
