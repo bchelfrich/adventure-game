@@ -1,7 +1,7 @@
 # Continuing my decision-based adventure typing game to practice my Python skills.
 # Author: Brandon Helfrich
 
-import intro   # Adds the introdcution. If you want to play, run this file.
+# import intro   # Adds the introduction. If you want to play, run this file.
 import sys
 import time
 
@@ -33,8 +33,27 @@ typingPrint("It borders the Great City walls to keep enemies out, but also those
 time.sleep(1)
 
 typingPrint("You instantly feel the eeriness as you enter the shadows, you feel as if there are a thousand eyes\n")
-typingPrint("on you, watching, waiting...\n\n")
+typingPrint("on you, watching, waiting...\n")
 
 time.sleep(1)
 
-# CONTIUNE HERE
+typingPrint("You reach a crossroads in the forest. Will you go left or right?\n")
+
+while True:
+    answer = input("([L] for left | [R] for right): ").lower().strip()
+    print()
+    if answer == "l":
+
+        time.sleep(1)
+
+        typingPrint("You have found a weapon! A dulling sword lies on the ground ahead, blood tried on the handle.\n")
+        break
+
+    if answer == "r":
+
+        time.sleep(1)
+
+        typingPrint("You have found a weapon! A dulling sword lies on the ground ahead, blood tried on the handle.\n")
+        break
+
+    print("Invalid choice. Try again!")

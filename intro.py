@@ -76,7 +76,7 @@ while True:
         typingPrint(" why, but you are the only one who can stop it. I must get you out of here.'\n\n")
         break
 
-    print("Invalid choice. Try again!")
+    print("Invalid choice. Try again!")   # Will loop until you give a valid answer.
 
 time.sleep(1)
 
